@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
-import Offcanvas from 'react-bootstrap/Offcanvas'
 import Nav from 'react-bootstrap/Nav'
 import logo from '../images/logo.png';
 
@@ -10,7 +9,7 @@ export default function NavbarComponent() {
     return (
         <div>
             <>
-                <Navbar collapseOnSelect variant="dark" bg="dark" expand="md">
+                <Navbar collapseOnSelect fixed="top" variant="dark" bg="dark" expand="md">
                     <Container fluid>
                         <Navbar.Brand href={homeURL}>
                             <img
