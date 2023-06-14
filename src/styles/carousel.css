@@ -1,0 +1,37 @@
+.carousel-container{
+    height: 100px;
+    width: 100%;
+}
+
+.carousel-img{ 
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    height: 100vh;
+    
+}
+
+.carousel-caption{
+    text-align: center;
+    top:50%;
+    transform: translateY(-20%);
+    text-shadow: 4px 4px 2px black;
+}
+
+.carousel-caption h1{
+    font-family: 'monserrat';
+    font-weight: bold;
+    font-size: 10vmin;
+}
+
+.carousel-caption h3{
+    font-family: 'monserrat';
+    font-weight: bold;
+    font-size: 4vmin;
+}
+
+.carousel-caption .icon{
+    font-size: 6vmin;
+    opacity: .5;
+    margin: 25% auto 0 auto;
+}
