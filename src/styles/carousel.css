@@ -14,19 +14,19 @@
 }
 
 .carousel-caption h1{
-    font-family: 'monserrat';
+    /* font-family: "Monserrat"; */
+    font-family: 'Chakra Petch';
     font-weight: bold;
     font-size: 10vmin;
 }
 
 .carousel-caption h3{
-    font-family: 'monserrat';
+    font-family: 'Chakra Petch';
     font-weight: bold;
     font-size: 4vmin;
 }
 
 .carousel-caption .icon{
-    /* position: absolute; */
     padding-top: 15%;
     font-size: 5vmin;
     opacity: .5;
