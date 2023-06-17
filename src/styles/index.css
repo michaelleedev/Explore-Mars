@@ -11,3 +11,136 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Navbar Section */
+.nav-link{
+  margin: auto 7% auto 7%;
+  padding-bottom: 0;
+  padding-top: 0;
+  font-size: 1.5em;
+  font-family: "Chakra Petch";
+}
+
+
+
+
+/* Carousel Section */
+.carousel-img{ 
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  height: 100vh;
+  
+}
+
+.carousel-caption{
+  text-align: center;
+  top:50%;
+  transform: translateY(-20%);
+  text-shadow: 4px 4px 2px black;
+}
+
+.carousel-caption h1{
+  font-family: 'Chakra Petch';
+  font-weight: bold;
+  font-size: 10vmin;
+}
+
+.carousel-caption h3{
+  font-family: 'Chakra Petch';
+  font-weight: bold;
+  font-size: 4vmin;
+}
+
+.carousel-caption .icon{
+  padding-top: 20%;
+  font-size: 5vmin;
+  opacity: .5;
+}
+
+
+
+/*Description Section*/
+.description-container {
+  margin: 3% 0 3% 0;
+  background-image: url("../images/DescriptionItem1.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  text-shadow: 2px 2px 2px black;
+
+}
+
+.description-item {
+  height: 70%;
+}
+
+.section-title {
+  text-align: center;
+  font-family: 'Chakra Petch';
+  padding: 2% 0 0 0;
+  font-size: 3.5em;
+}
+
+
+.col {
+  text-align: center;
+  font-family: 'Chakra Petch';
+  padding: 5% 5% 7% 5%;
+}
+
+.col h1 {
+  font-size: 2em;
+  padding-bottom: 5%;
+}
+
+.col h3 {
+  font-size: 1.5em;
+}
+
+.col a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.col a:hover {
+  background-color: grey;
+}
+
+
+
+
+
+
+
+/* Newsletter Section */
+.newsletter-container{
+  background-color: #A9A9A9;
+}
+
+.newsletter-body{
+  text-align: center;
+  font-family: 'Chakra Petch';
+  padding: 5% 15% 0 15%;
+}
+
+form {
+  padding: 0 20% 5% 20%;
+  margin-top: 5%;
+}
+
+
+
+/* Socials Section */
+.socials-container{
+  text-align: center;
+  margin-top: 3%;
+  padding: 0 0 5% 0;
+  background-color: black;
+}
+
+.socials-container a{
+  padding: 0 5% 0 5%;
+  font-size: 3em;
+  color: white;
+}

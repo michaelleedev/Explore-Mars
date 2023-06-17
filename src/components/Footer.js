@@ -2,7 +2,7 @@ import React from 'react'
 import { CiFacebook, CiInstagram, CiTwitter} from 'react-icons/ci'
 import { FaTiktok} from 'react-icons/fa'
 
-import '../styles/footer.css';
+import '../styles/index.css';
 
 export default function Footer() {
   return (

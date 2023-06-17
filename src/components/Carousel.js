@@ -10,7 +10,7 @@ import img2 from '../images/CarouselItem2.jpg'
 import img3 from '../images/CarouselItem3.jpg'
 
 // stylesheet
-import '../styles/carousel.css'
+import '../styles/index.css'
 
 export default function CarouselComponent() {
     return (

@@ -3,7 +3,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 
-import '../styles/navbar.css';
+import '../styles/index.css';
 import logo from '../images/logo.png';
 
 
@@ -12,7 +12,7 @@ export default function NavbarComponent() {
     return (
         <div>
             <>
-                <Navbar collapseOnSelect fixed="top" variant="dark" bg="dark" expand="md">
+                <Navbar collapseOnSelect variant="dark" bg="dark" expand="md">
                     <Container fluid>
                         <Navbar.Brand href={homeURL}>
                             <img

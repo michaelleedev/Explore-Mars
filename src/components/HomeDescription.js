@@ -5,7 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
 
-import '../styles/description.css'
+import '../styles/index.css'
 
 export default function HomeDescription() {
 
