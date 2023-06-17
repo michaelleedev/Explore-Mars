@@ -1,11 +1,14 @@
+.newsletter-container{
+    background-color: #A9A9A9;
+}
+
 .newsletter-body{
-    margin-top: 5%;
     text-align: center;
     font-family: 'Chakra Petch';
-    padding: 0 15%;
+    padding: 5% 15% 0 15%;
 }
 
 form {
-    padding: 0 20%;
+    padding: 0 20% 5% 20%;
     margin-top: 5%;
 }
