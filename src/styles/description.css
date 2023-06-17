@@ -1,9 +1,11 @@
 .description-container {
-    margin: 10px auto 10px auto;
-    background-color: grey;
+    margin-top: 3%;
     background-image: url("../images/DescriptionItem1.jpg");
+    background-position: center;
+    background-size: cover;
     color: white;
     text-shadow: 2px 2px 2px black;
+
 }
 
 .description-item {
@@ -26,7 +28,7 @@
 
 .col h1 {
     font-size: 2em;
-    padding-bottom: 3%
+    padding-bottom: 5%;
 }
 
 .col h3 {
