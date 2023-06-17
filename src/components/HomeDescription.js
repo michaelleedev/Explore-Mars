@@ -4,7 +4,6 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 
-import Item1 from "../images/DescriptionItem1.jpg";
 
 import '../styles/description.css'
 
@@ -19,7 +18,7 @@ export default function HomeDescription() {
                     <Col className="col-md-4 col-12">
                         <div className="description-item">
                             <h1>Basic Information</h1>
-                            <h3>Traveling to Mars is a bit different from traveling on Earth, and we got you covered</h3>
+                            <h3>Traveling to Mars is a bit different than traveling on Earth, and we got you covered</h3>
                         </div>
 
                         <Button href="#" variant="outline-secondary" size="lg" className="mt-5">Lean More</Button>
@@ -34,7 +33,7 @@ export default function HomeDescription() {
                     </Col>
                     <Col className="col-md-4 col-12">
                         <div className="description-item">
-                            <h1>Customizable Trave Plans</h1>
+                            <h1>Customized Travel Plans</h1>
                             <h3>Start with our basic itinerary and customize it however you want</h3>
                         </div>
                         <Button href="#" variant="outline-secondary" size="lg" className="mt-5">Lean More</Button>
