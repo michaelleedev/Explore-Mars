@@ -6,7 +6,7 @@ import "../styles/newsletter.css"
 
 export default function Newsletter() {
   return (
-    <div>
+    <div className="newsletter-container">
       <div className="newsletter-body">
         <h1>Sign Up</h1>
         <h3>Want to know more or stay up to date? Sign up for our newsletter for more information!</h3>
