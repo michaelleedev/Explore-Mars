@@ -14,7 +14,6 @@ export default function Footer() {
         <a href="/" onClick={() => alert("Redirecting to Tiktok")}><FaTiktok /></a>
         <a href="/" onClick={() => alert("Redirecting to Twitter")}><CiTwitter /></a>
       </div>
-        
     </div>
   )
 }
