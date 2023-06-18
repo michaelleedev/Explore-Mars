@@ -9,11 +9,10 @@ export default function Footer() {
     <div>
       
       <div className="socials-container">
-        <a href="#" ><CiFacebook /></a>
-        <a href="#" ><CiInstagram /></a>
-        <a href="#" ><FaTiktok /></a>
-        <a href="#" ><CiTwitter /></a>
-        
+        <a href="/" onClick={() => alert("Redirecting to Facebook")}><CiFacebook /></a>
+        <a href="/" onClick={() => alert("Redirecting to Instagram")}><CiInstagram /></a>
+        <a href="/" onClick={() => alert("Redirecting to Tiktok")}><FaTiktok /></a>
+        <a href="/" onClick={() => alert("Redirecting to Twitter")}><CiTwitter /></a>
       </div>
         
     </div>

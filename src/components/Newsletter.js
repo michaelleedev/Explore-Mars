@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
@@ -19,7 +19,7 @@ export default function Newsletter() {
         <Form.Group classNmae="mb-3" controlId="formBasicCheckbox">
           <Form.Check type="checkbox" label="I would like to get regular updates about new events and promotions" />
         </Form.Group>
-        <Button variant="secondary" type="submit" className="mt-3">
+        <Button href="/" onClick={() => alert('Success! \nYou have successfully signed up for our newsletter. \n\n READ THIS \nThis website is a \"mock\" website and the sign up button has no functionality. Your email won\'t be saved and you will not get any emails from this website.')}  variant="secondary" type="submit" className="mt-3">
           Sign Up
         </Button>
       </Form>
