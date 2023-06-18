@@ -25,6 +25,10 @@ code {
 
 
 /* Carousel Section */
+.carousel{
+  position: relative;
+}
+
 .carousel-img{ 
   object-fit: cover;
   object-position: center;
@@ -37,6 +41,7 @@ code {
   text-align: center;
   top:50%;
   transform: translateY(-20%);
+  color: white;
   text-shadow: 4px 4px 2px black;
 }
 
@@ -53,69 +58,104 @@ code {
 }
 
 .carousel-caption .icon{
-  padding-top: 20%;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, 0%);
   font-size: 5vmin;
   opacity: .5;
+}
+
+.carousel-caption a{
+  color: white;
 }
 
 
 
 /*Description Section*/
 .description-container {
-  margin: 3% 0 3% 0;
-  background-image: url("../images/DescriptionItem1.jpg");
-  background-position: center;
-  background-size: cover;
+  margin: 1% 0;
+  padding: 0;
+  font-family: 'Chakra Petch';
   color: white;
   text-shadow: 2px 2px 2px black;
-
 }
 
-.description-item {
-  height: 70%;
+#description-information{
+  background: url("../images/DescriptionItem1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  position: relative;
 }
 
-.section-title {
-  text-align: center;
-  font-family: 'Chakra Petch';
-  padding: 2% 0 0 0;
-  font-size: 3.5em;
+.description-container h1{
+  margin-bottom: 5%;
+  font-size: 3em;
 }
 
-
-.col {
-  text-align: center;
-  font-family: 'Chakra Petch';
-  padding: 5% 5% 7% 5%;
+.description-container p{
+  font-size: 1.25em;
+  opacity: .85;
+  width: 70%;
 }
 
-.col h1 {
-  font-size: 2em;
-  padding-bottom: 5%;
+@media only screen and (max-width: 576px){
+  .description-container p{
+    display: none;
+  }
 }
 
-.col h3 {
-  font-size: 1.5em;
+.information-content{
+  width: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%, -50%);
 }
 
-.col a {
-  text-decoration: none;
-  color: inherit;
+#description-scenery{
+  background: url("../images/DescriptionItem2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 30%;
+  height: 60vh;
+  position: relative;
 }
 
-.col a:hover {
-  background-color: grey;
+.scenery-content{
+  width: 60%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-10%, -50%);
 }
 
+#description-activity{
+  background: url("../images/DescriptionItem3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 70%;
+  height: 60vh;
+  position: relative;
+}
 
-
-
-
+.activity-content{
+  width: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%, -50%);
+}
 
 
 /* Newsletter Section */
 .newsletter-container{
   background-color: #A9A9A9;
+  margin-bottom: 1%;
 }
 
 .newsletter-body{
@@ -134,8 +174,7 @@ form {
 /* Socials Section */
 .socials-container{
   text-align: center;
-  margin-top: 3%;
-  padding: 0 0 5% 0;
+  padding: 3% 0 5% 0;
   background-color: black;
 }
 

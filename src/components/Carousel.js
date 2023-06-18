@@ -24,7 +24,7 @@ export default function CarouselComponent() {
                     />
                     <Carousel.Caption>
                         <h1>DISCOVER A NEW WORLD</h1>
-                        <div className="icon"><FaAngleDoubleDown /></div>
+                        <div className="icon"><a href="#description-information"><FaAngleDoubleDown /></a></div>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -35,7 +35,7 @@ export default function CarouselComponent() {
                     />
                     <Carousel.Caption>
                         <h1>DISCOVER A NEW WORLD</h1>
-                        <div className="icon"><FaAngleDoubleDown /></div>
+                        <div className="icon"><a href="#description-information"><FaAngleDoubleDown /></a></div>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -46,7 +46,7 @@ export default function CarouselComponent() {
                     />
                     <Carousel.Caption>
                         <h1>DISCOVER A NEW WORLD</h1>
-                        <div className="icon"><FaAngleDoubleDown /></div>
+                        <div className="icon"><a href="#description-information"><FaAngleDoubleDown /></a></div>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
