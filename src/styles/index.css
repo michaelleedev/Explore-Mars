@@ -11,3 +11,175 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Navbar Section */
+.nav-link{
+  margin: auto 7% auto 7%;
+  padding-bottom: 0;
+  padding-top: 0;
+  font-size: 1.5em;
+  font-family: "Chakra Petch";
+}
+
+
+
+
+/* Carousel Section */
+.carousel{
+  position: relative;
+}
+
+.carousel-img{ 
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  height: 100vh;
+  
+}
+
+.carousel-caption{
+  text-align: center;
+  top:50%;
+  transform: translateY(-20%);
+  color: white;
+  text-shadow: 4px 4px 2px black;
+}
+
+.carousel-caption h1{
+  font-family: 'Chakra Petch';
+  font-weight: bold;
+  font-size: 10vmin;
+}
+
+.carousel-caption h3{
+  font-family: 'Chakra Petch';
+  font-weight: bold;
+  font-size: 4vmin;
+}
+
+.carousel-caption .icon{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-size: 5vmin;
+  opacity: .5;
+}
+
+.carousel-caption a{
+  color: white;
+}
+
+
+
+/*Description Section*/
+.description-container {
+  margin: 1% 0;
+  padding: 0;
+  font-family: 'Chakra Petch';
+  color: white;
+  text-shadow: 2px 2px 2px black;
+}
+
+#description-information{
+  background: url("../images/DescriptionItem1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  position: relative;
+}
+
+.description-container h1{
+  margin-bottom: 5%;
+  font-size: 3em;
+}
+
+.description-container p{
+  font-size: 1.25em;
+  opacity: .85;
+  width: 70%;
+}
+
+@media only screen and (max-width: 576px){
+  .description-container p{
+    display: none;
+  }
+}
+
+.information-content{
+  width: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%, -50%);
+}
+
+#description-scenery{
+  background: url("../images/DescriptionItem2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 30%;
+  height: 60vh;
+  position: relative;
+}
+
+.scenery-content{
+  width: 60%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-10%, -50%);
+}
+
+#description-activity{
+  background: url("../images/DescriptionItem3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 70%;
+  height: 60vh;
+  position: relative;
+}
+
+.activity-content{
+  width: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translate(-10%, -50%);
+}
+
+
+/* Newsletter Section */
+.newsletter-container{
+  background-color: #A9A9A9;
+  margin-bottom: 1%;
+}
+
+.newsletter-body{
+  text-align: center;
+  font-family: 'Chakra Petch';
+  padding: 5% 15% 0 15%;
+}
+
+form {
+  padding: 0 20% 5% 20%;
+  margin-top: 5%;
+}
+
+
+
+/* Socials Section */
+.socials-container{
+  text-align: center;
+  padding: 3% 0 5% 0;
+  background-color: black;
+}
+
+.socials-container a{
+  padding: 0 5% 0 5%;
+  font-size: 3em;
+  color: white;
+}

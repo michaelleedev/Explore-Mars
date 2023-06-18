@@ -10,7 +10,7 @@ import img2 from '../images/CarouselItem2.jpg'
 import img3 from '../images/CarouselItem3.jpg'
 
 // stylesheet
-import '../styles/carousel.css'
+import '../styles/index.css'
 
 export default function CarouselComponent() {
     return (
@@ -24,7 +24,7 @@ export default function CarouselComponent() {
                     />
                     <Carousel.Caption>
                         <h1>DISCOVER A NEW WORLD</h1>
-                        <div className="icon"><FaAngleDoubleDown /></div>
+                        <div className="icon"><a href="#description-information"><FaAngleDoubleDown /></a></div>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -35,7 +35,7 @@ export default function CarouselComponent() {
                     />
                     <Carousel.Caption>
                         <h1>DISCOVER A NEW WORLD</h1>
-                        <div className="icon"><FaAngleDoubleDown /></div>
+                        <div className="icon"><a href="#description-information"><FaAngleDoubleDown /></a></div>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -46,7 +46,7 @@ export default function CarouselComponent() {
                     />
                     <Carousel.Caption>
                         <h1>DISCOVER A NEW WORLD</h1>
-                        <div className="icon"><FaAngleDoubleDown /></div>
+                        <div className="icon"><a href="#description-information"><FaAngleDoubleDown /></a></div>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
