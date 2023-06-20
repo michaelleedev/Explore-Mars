@@ -1,20 +1,24 @@
 import "../styles/index.css";
-import Navbar from './NavbarComponent.js'
-import Carousel from './Carousel.js'
-import Description from './HomeDescription.js'
-import Newsletter from './Newsletter.js'
-import Footer from './Footer.js'
+import {BrowserRouter as Router, Routes, Route, Redirect} from "react-router-dom";
+import Home from "./Home.js";
+import Information from "./Information.js";
+import Places from "./Scenary.js";
+import Activity from "./Activity.js";
 
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Carousel />
-      <Description />
-      <Newsletter />
-      <Footer />
-    </div>
+    <>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/information" element={<Information />}></Route>
+        <Route path="/scenary" element={<Places />}></Route>
+        <Route path="/activity" element={<Activity />}></Route>
+      </Routes>
+    </Router>
+    </>
+    
   );
 }
 

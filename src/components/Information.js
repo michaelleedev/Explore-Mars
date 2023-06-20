@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Information() {
   return (
-    <div className="section-wrapper">
-
+    <div>
+      <h1>Hello World</h1>
     </div>
   )
 }

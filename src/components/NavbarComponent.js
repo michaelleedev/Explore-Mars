@@ -25,9 +25,9 @@ export default function NavbarComponent() {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="justify-content-md-center flex-grow-1 pe-auto">
-                                <Nav.Link href="#description-information" >What To Expect</Nav.Link>
-                                <Nav.Link href="#description-scenery" >Places To Visit</Nav.Link>
-                                <Nav.Link href="#description-activity" >Things To Do</Nav.Link>
+                                <Nav.Link href="/information" >What To Expect</Nav.Link>
+                                <Nav.Link href="/scenary" >Places To Visit</Nav.Link>
+                                <Nav.Link href="/activity" >Things To Do</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
