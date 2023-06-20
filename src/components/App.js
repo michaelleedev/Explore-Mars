@@ -1,5 +1,5 @@
 import "../styles/index.css";
-import {BrowserRouter as Router, Routes, Route, Redirect} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Home from "./Home.js";
 import Information from "./Information.js";
 import Places from "./Scenary.js";
