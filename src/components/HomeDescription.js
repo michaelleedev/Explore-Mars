@@ -21,7 +21,7 @@ export default function HomeDescription() {
                         <Button href="#" variant="secondary" className="mt-3">Learn More</Button>
                     </div>
                 </div>
-                <div id="description-scenery">
+                 <div id="description-scenery">
                     <div className="scenery-content">
                         <h1>VISIT THE ALIEN<br></br> SITES OF MARS</h1>
                         <p>See the mystical sites and sceneries of Mars!<br></br>
@@ -36,7 +36,7 @@ export default function HomeDescription() {
                         From resource mining to agricultural engineering, learn what it's like to be part of a settlement and keep it operating.</p>
                         <Button href="#" variant="secondary" className="mt-3">Learn More</Button>
                     </div>
-                </div>
+                </div> 
             </Container>
         </div>
     )
