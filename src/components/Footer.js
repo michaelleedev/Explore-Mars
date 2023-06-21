@@ -2,8 +2,6 @@ import React from 'react'
 import { CiFacebook, CiInstagram, CiTwitter} from 'react-icons/ci'
 import { FaTiktok} from 'react-icons/fa'
 
-import '../styles/index.css';
-
 export default function Footer() {
   return (
     <div>

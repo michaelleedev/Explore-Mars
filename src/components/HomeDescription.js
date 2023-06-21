@@ -1,11 +1,6 @@
-import React, { useState } from 'react'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import React from 'react';
+import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
-
-
-import '../styles/index.css'
 
 export default function HomeDescription() {
 
