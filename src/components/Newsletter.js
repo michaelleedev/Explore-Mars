@@ -2,8 +2,6 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
-import "../styles/index.css"
-
 export default function Newsletter() {
   return (
     <div className="newsletter-container">

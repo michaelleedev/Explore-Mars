@@ -2,9 +2,6 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 
-
-import '../styles/index.css'
-
 export default function HomeDescription() {
 
 

@@ -9,8 +9,6 @@ import img1 from '../images/CarouselItem1.jpg'
 import img2 from '../images/CarouselItem2.jpg'
 import img3 from '../images/CarouselItem3.jpg'
 
-// stylesheet
-import '../styles/index.css'
 
 export default function CarouselComponent() {
     return (
