@@ -176,7 +176,7 @@ form {
 /* Socials Section */
 .socials-container{
   text-align: center;
-  padding: 3% 0 5% 0;
+  padding: 5% 0 3% 0;
   background-color: black;
 }
 
@@ -184,4 +184,17 @@ form {
   padding: 0 5% 0 5%;
   font-size: 3em;
   color: white;
+}
+
+/* Disclaimer Section */
+.disclaimer-container{
+  text-align: center;
+  font-family: 'Chakra Petch';
+  color: white;
+  opacity: .5;
+  padding: 3% 20% 0 20%;
+}
+
+.disclaimer-container p{
+  font-size: 1rem;
 }
