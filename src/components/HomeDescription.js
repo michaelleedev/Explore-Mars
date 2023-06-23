@@ -18,7 +18,7 @@ export default function HomeDescription() {
                 </div>
                  <div id="description-scenery">
                     <div className="scenery-content">
-                        <h1>VISIT THE ALIEN<br></br> SITES OF MARS</h1>
+                        <h1>PLACES AND SCENARIES <br></br>TO VISIT</h1>
                         <p>See the mystical sites and sceneries of Mars!<br></br>
                             Mountains, craters, settlements, and historic landing sites are waiting to be explored.</p>
                         <Button href="/scenary" variant="secondary" className="mt-3">Learn More</Button>
@@ -26,7 +26,7 @@ export default function HomeDescription() {
                 </div>
                 <div id="description-activity">
                     <div className="activity-content">
-                        <h1>SPEND TIME <br></br>AS A SETTLER</h1>
+                        <h1>ACTIVITIES AND EXPLORATIONS</h1>
                         <p>Take part in essential and scientific activities!<br></br>
                         From resource mining to agricultural engineering, learn what it's like to be part of a settlement and keep it operating.</p>
                         <Button href="/activity" variant="secondary" className="mt-3">Learn More</Button>
