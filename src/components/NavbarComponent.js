@@ -40,9 +40,9 @@ export default function NavbarComponent(props) {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="justify-content-md-center flex-grow-1 pe-auto">
-                                <Nav.Link to="/information" >{info}</Nav.Link>
-                                <Nav.Link to="/scenary" >{scene}</Nav.Link>
-                                <Nav.Link to="/activity" >{activity}</Nav.Link>
+                                <Nav.Link href="/information" >{info}</Nav.Link>
+                                <Nav.Link href="/scenary" >{scene}</Nav.Link>
+                                <Nav.Link href="/activity" >{activity}</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>
