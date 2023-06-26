@@ -29,7 +29,7 @@ export default function NavbarComponent(props) {
             <>
                 <Navbar collapseOnSelect fixed={fix} variant="dark" bg="dark" expand="md">
                     <Container fluid>
-                        <Navbar.Brand href="/ExploreMars">
+                        <Navbar.Brand href="/">
                             <img
                                 src={logo}
                                 width="30px"
@@ -40,9 +40,9 @@ export default function NavbarComponent(props) {
                         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="justify-content-md-center flex-grow-1 pe-auto">
-                                <Nav.Link href="/ExploreMars/information" >{info}</Nav.Link>
-                                <Nav.Link href="/ExploreMars/scenary" >{scene}</Nav.Link>
-                                <Nav.Link href="/ExploreMars/activity" >{activity}</Nav.Link>
+                                <Nav.Link href="/information" >{info}</Nav.Link>
+                                <Nav.Link href="/scenary" >{scene}</Nav.Link>
+                                <Nav.Link href="/activity" >{activity}</Nav.Link>
                             </Nav>
                         </Navbar.Collapse>
                     </Container>

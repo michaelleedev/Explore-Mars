@@ -9,10 +9,9 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/ExploreMars" element={<Home />} />
-        <Route path="/ExploreMars/information" element={<Content page="information" />}></Route>
-        <Route path="/ExploreMars/scenary" element={<Content page="scenary" />}></Route>
-        <Route path="/ExploreMars/activity" element={<Content page="activity" />}></Route>
+        <Route path="/information" element={<Content page="information" />}></Route>
+        <Route path="/scenary" element={<Content page="scenary" />}></Route>
+        <Route path="/activity" element={<Content page="activity" />}></Route>
       </Routes>
     </Router>
     </>
