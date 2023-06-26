@@ -1,9 +1,6 @@
 import React from 'react';
 
 import Image from 'react-bootstrap/Image';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-
 import InfoImage1 from "../images/InformationItem1.jpg"
 import InfoImage2 from "../images/InformationItem2.jpg"
 import InfoImage3 from "../images/InformationItem3.jpg"
