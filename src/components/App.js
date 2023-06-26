@@ -6,7 +6,7 @@ import Content from "./Content.js";
 function App() {
   return (
     <>
-    <Router>
+    <Router basename="https://michaelleedev.github.io/ExploreMars">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/ExploreMars" element={<Home />} />
